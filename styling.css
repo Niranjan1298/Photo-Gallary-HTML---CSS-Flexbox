@@ -1,0 +1,23 @@
+/*Dimensions of any box includes its border and padding.*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Comvert the container to flexbox */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Set the width of images to 100% of column width */
+img {
+    width: 100%;
+}
+
